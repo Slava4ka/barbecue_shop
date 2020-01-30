@@ -3,6 +3,7 @@ import './App.scss'
 import Navbar from './Navbar/Navbar'
 import { HashRouter } from 'react-router-dom'
 import Billboard from './Billboard/Billboard'
+import SlideMenu from './SlideMenu/SlideMenu'
 
 const usePrevious = (value: number): number => {
   const ref = useRef<number>(0)
@@ -35,12 +36,8 @@ const App: React.FC = () => {
     <div className="App">
       <Navbar move={moveScrollFlag} />
       <Billboard />
-      <div style={{ height: '300vh', backgroundColor: 'green' }}>
-        <button onClick={() => setMoveScrollFlag(!moveScrollFlag)}>
-          Fuck this shit
-        </button>
-        <div style={{ marginTop: '200px' }}></div>
-      </div>
+      <SlideMenu />
+      <div style={{ height: '300vh', backgroundColor: 'green' }}></div>
     </div>
   )
 }

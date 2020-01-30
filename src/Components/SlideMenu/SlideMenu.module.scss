@@ -1,0 +1,84 @@
+%background {
+  flex: 1 1 auto;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.label {
+  margin-top: 10vh;
+  margin-bottom: 7vh;
+  font-weight: 700;
+}
+
+.slideMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shadow {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+  cursor: pointer;
+
+  .shadow__title {
+    text-align: center;
+    width: 150px;
+  }
+
+  &:hover {
+    background-image: none;
+
+    .shadow__title {
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+  }
+}
+
+.slideMenu_body {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  .slideMenu__pork {
+    background-image: url("https://avatars.mds.yandex.net/get-zen_doc/96506/pub_5d7d52bbd7859b00ad2b9ecc_5d7d532cecfb8000ad3972cc/scale_1200");
+    @extend %background
+  }
+
+  .slideMenu__mutton {
+    background-image: url("https://womanadvice.ru/sites/default/files/39/articles_main_big/2019-05-30_1908/barani_rebryshki_na_mangale.jpg");
+    @extend %background
+  }
+
+  .slideMenu__bird {
+    background-image: url("https://www.gastronom.ru/binfiles/images/20180802/b7a10ccc.jpg");
+    @extend %background
+  }
+
+  .slideMenu__fish {
+    background-image: url("https://vseretsepti.ru/images/content-img/big/140323142305.jpg");
+    @extend %background
+  }
+
+  .slideMenu__vegetables {
+    background-image: url("https://www.koolinar.ru/all_image/recipes/142/142780/recipe_e3329014-988f-4c53-a412-2552a1c137b8_large.jpg");
+    @extend %background
+  }
+}
+
+.slideMenu_body_margin {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

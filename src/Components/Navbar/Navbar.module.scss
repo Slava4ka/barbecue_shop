@@ -20,6 +20,7 @@
     .container__navigation {
       ul {
         list-style-type: none;
+        margin: 0;
       }
 
       li {
@@ -39,8 +40,8 @@
           text-decoration: none;
 
           &:hover {
-            border-bottom: 0 solid #fef159;
-            box-shadow: inset 0px -1px 0px 0px #fef159;
+            color: #fef159;
+            font-weight: bold;
             -webkit-transition: all 0.3s ease;
             transition: all 0.3s ease;
           }
@@ -63,6 +64,13 @@
       text-decoration: none;
       font-size: 20px;
       cursor: pointer;
+
+      &:hover {
+        color: #fef159;
+        font-weight: bold;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
     }
   }
 
@@ -70,6 +78,7 @@
 
 .navbar_position {
   position: fixed;
+  z-index: 1;
 }
 
 .navbar_color {
