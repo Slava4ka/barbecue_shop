@@ -1,0 +1,53 @@
+$images: url(https://thumb.tildacdn.com/tild3235-3331-4834-b737-653966366163/-/format/webp/shaslik_sity_fon.jpg),
+url(https://j.etagi.com/uploads/kak-prigotovit-sashlyk-v-dukhovke-2.jpg),
+url(https://img4.goodfon.ru/original/1366x768/a/60/miaso-shashlyk-ovoshchi.jpg),
+url(https://gazeta.a42.ru/uploads/adb/adbd2e10-6a8c-11e9-904c-156c4ce9382a.jpg);
+$image: nth($images, 4);
+
+.cover {
+  height: 100vh;
+  background-image: $image;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.billboard {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.typed {
+  width: 90%;
+  color: white;
+  font-weight: bold;
+  font-family: Calibri, "Fira Sans", sans-serif;
+  font-size: 4rem;
+  padding-right: 18px;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
+
+  .typed__line {
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 3.5rem;
+
+    :last-child {
+      color: #ffce3a;
+      text-shadow: none;
+    }
+  }
+}
+
