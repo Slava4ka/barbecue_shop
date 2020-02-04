@@ -1,17 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './App.scss'
-import Navbar from './Navbar/Navbar'
+import Billboard from './Components/Billboard/Billboard'
+import SlideMenu from './Components/SlideMenu/SlideMenu'
 import { HashRouter } from 'react-router-dom'
-import Billboard from './Billboard/Billboard'
-import SlideMenu from './SlideMenu/SlideMenu'
-
-const usePrevious = (value: number): number => {
-  const ref = useRef<number>(0)
-  useEffect(() => {
-    ref.current = value
-  }, [value])
-  return ref.current
-}
+import Navbar from './Components/Navbar/Navbar'
+import MapComponent from './Components/MapComponent/MapComponent'
+import Footer from './Components/Footer/Footer'
 
 const App: React.FC = () => {
   const [moveScrollFlag, setMoveScrollFlag] = useState<boolean>(false)
@@ -37,7 +31,8 @@ const App: React.FC = () => {
       <Navbar move={moveScrollFlag} />
       <Billboard />
       <SlideMenu />
-      <div style={{ height: '300vh', backgroundColor: 'green' }}></div>
+      <MapComponent />
+      <Footer />
     </div>
   )
 }

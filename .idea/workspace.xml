@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e92e566e-d90a-4c4d-a760-4a5ad5d73d40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/SlideMenu/SlideMenu.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SlideMenu/SlideMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MapComponent/MapComponent.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MapComponent/MapComponent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -33,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myExperiments/fullpage_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,14 +46,15 @@
     <property name="ts.external.directory.path" value="C:\Users\Slava\WebstormProjects\barbecue\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Slava\WebstormProjects\barbecue\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\barbecue\src" />
       <recent name="C:\Users\Slava\WebstormProjects\barbecue\src\Components\SlideMenu" />
       <recent name="C:\Users\Slava\WebstormProjects\barbecue\public" />
       <recent name="C:\Users\Slava\WebstormProjects\barbecue\src\Components" />
       <recent name="C:\Users\Slava\WebstormProjects\barbecue" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\barbecue\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,7 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580246705993</updated>
       <workItem from="1580246709152" duration="2161000" />
-      <workItem from="1580301790458" duration="61838000" />
+      <workItem from="1580301790458" duration="63330000" />
+      <workItem from="1580817087907" duration="8313000" />
     </task>
     <servers />
   </component>

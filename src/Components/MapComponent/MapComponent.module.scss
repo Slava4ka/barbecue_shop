@@ -1,0 +1,23 @@
+.mapComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .mapComponent__info {
+    text-align: center;
+  }
+}
+
+.line {
+  width: 40%;
+  border: 0.8px solid #20232a;
+}
+
+.margin_top {
+  margin-top: 8vh;
+}
+
+.margin_bottom {
+  margin-bottom: 8vh;
+}
